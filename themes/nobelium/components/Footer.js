@@ -20,11 +20,11 @@ export const Footer = (props) => {
      <div className="my-4 text-sm leading-6">
        <div className="flex align-baseline justify-between flex-wrap">
          <p>
-           <i class="fa-solid fa-face-grin-hearts"></i> &thinsp
-           <a href='mailto:uncle.jason@qq.com' className='underline text-gray-500 dark:text-gray-300'> Interested in this Domain? </a>&emsp&emsp&emsp&emsp
-           <i class="fa-solid fa-robot"></i>&emsp
-           <i class="fa-solid fa-rocket"></i>&emsp
-           <i class="fa-solid fa-brain"></i>&emsp
+           <i class="fa-solid fa-face-grin-hearts"></i>    
+           <a href='mailto:uncle.jason@qq.com' className='underline text-gray-500 dark:text-gray-300'> Interested in this Domain? </a>      
+           <i class="fa-solid fa-robot"></i>   
+           <i class="fa-solid fa-rocket"></i>   
+           <i class="fa-solid fa-brain"></i>   
            If you are Elon Musk, get it for free！
          </p>
        </div>
