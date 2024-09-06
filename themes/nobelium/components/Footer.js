@@ -22,7 +22,7 @@ export const Footer = (props) => {
          <p>
            <i class="fa-solid fa-face-grin-hearts"></i>&nbsp;
            <a href='mailto:uncle.jason@qq.com' className='underline text-gray-500 dark:text-gray-300'> Interested in this Domain? </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <span className='white-text'> If you are Elon Musk, get it for free！</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <p class='white-text'> If you are Elon Musk, get it for free！</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            <i class="fa-solid fa-robot"></i>&nbsp;&nbsp;
            <i class="fa-solid fa-rocket"></i>&nbsp;&nbsp;
            <i class="fa-solid fa-brain"></i>
