@@ -1,6 +1,5 @@
 const CONFIG = {
 
-  NOBELIUM_INDEX_PAGE: 'home', // 文档首页显示的文章，请确此路径包含在您的notion数据库中
   
   NOBELIUM_NAV_NOTION_ICON: true, // 是否读取Notion图标作为站点头像 ; 否则默认显示黑色SVG方块
 
