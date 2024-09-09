@@ -85,6 +85,7 @@ const LayoutBase = props => {
         <Footer {...props} />
 
         {/* 右下悬浮 */}
+        document.getElementById('elementId').style.opacity = '0';
         <div className='fixed right-4 bottom-4'>
           <JumpToTopButton />
         </div>
