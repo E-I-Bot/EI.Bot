@@ -195,8 +195,7 @@ const LayoutBase = props => {
             </div>
 
             {/* 底部 */}
-            <div className='md:hidden'>
-              <Footer {...props} />
+            <div className=''>
             </div>
           </div>
 
