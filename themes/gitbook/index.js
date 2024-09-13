@@ -159,7 +159,7 @@ const LayoutBase = props => {
 
                 </div>
                 {/* 页脚 */}
-                <Footer {...props} />
+              
               </div>
             </div>
           )}
