@@ -28,7 +28,7 @@ const Footer = ({ siteInfo }) => {
           </a>
           <br />
         </div>
-        © {`${copyrightDate}`}
+        &nbsp;&nbsp;© {`${copyrightDate}`}
       </div>
 
       
