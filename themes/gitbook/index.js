@@ -241,7 +241,7 @@ const LayoutBase = props => {
         <PageNavDrawer {...props} filteredNavPages={filteredNavPages} />
 
         {/* 移动端底部导航栏 */}
-        <BottomMenuBar {...props} />
+        
       </div>
     </ThemeGlobalGitbook.Provider>
   )
