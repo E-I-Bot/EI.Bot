@@ -156,14 +156,7 @@ const LayoutBase = props => {
               <div className='w-72 pt-14 pb-4 px-6 sticky top-0 h-screen flex justify-between flex-col'>
                 {/* 导航 */}
                 <div className='overflow-y-scroll scroll-hidden'>
-                  {/* 嵌入 */}
-                  {slotLeft}
-                  {/* 搜索框 */}
-                  <SearchInput className='my-3 rounded-md' />
 
-                  {/* 文章列表 */}
-                  {/* 所有文章列表 */}
-                  <NavPostList filteredNavPages={filteredNavPages} />
                 </div>
                 {/* 页脚 */}
                 <Footer {...props} />
