@@ -149,7 +149,14 @@ const LayoutBase = props => {
           }>
           {/* 左侧推拉抽屉 */}
           {fullWidth ? null : (
-           
+            
+                {/* 导航 */}
+                <div className='overflow-y-scroll scroll-hidden'>
+
+                </div>
+                {/* 页脚 */}
+               
+              </div>
             </div>
           )}
 
