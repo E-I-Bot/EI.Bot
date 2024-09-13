@@ -205,9 +205,9 @@ const LayoutBase = props => {
             <div
               style={{ width: '20rem' }}
               className={
-                'hidden xl:block dark:border-transparent flex-shrink-0 relative z-10 '
+                ''
               }>
-              <div className='py-14 px-6 sticky top-0'>
+              <div className=''>
                 <ArticleInfo post={props?.post ? props?.post : props.notice} />
 
                 <div className='py-4'>
