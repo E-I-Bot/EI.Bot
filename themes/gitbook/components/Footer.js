@@ -20,7 +20,7 @@ const Footer = ({ siteInfo }) => {
 
       <div className='flex justify-center pt-1'>
         <div>
-          <i className='mx-1 animate-pulse fas fa-heart' />{' '}
+          <i className='mx-1 animate-pulse fas fa-robot' />{' '}
           <a
             href={siteConfig('LINK')}
             className='underline font-bold text-gray-500 dark:text-gray-300 '>
@@ -31,15 +31,7 @@ const Footer = ({ siteInfo }) => {
         © {`${copyrightDate}`}
       </div>
 
-      <div className='text-xs font-serif'>
-        Powered By{' '}
-        <a
-          href='https://github.com/tangly1024/NotionNext'
-          className='underline text-gray-500 dark:text-gray-300'>
-          NotionNext {siteConfig('VERSION')}
-        </a>
-      </div>
-
+      
       {siteConfig('BEI_AN') && (
         <>
           <i className='fas fa-shield-alt' />{' '}
