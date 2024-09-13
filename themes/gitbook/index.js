@@ -203,12 +203,11 @@ const LayoutBase = props => {
           {/*  右侧侧推拉抽屉 */}
           {fullWidth ? null : (
             <div
-              style={{ width: '20rem' }}
+              style={{ width: '0rem' }}
               className={
                 ''
               }>
               <div className=''>
-                <ArticleInfo post={props?.post ? props?.post : props.notice} />
 
                 <div className='py-4'>
                   {/* 桌面端目录 */}
